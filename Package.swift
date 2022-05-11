@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(name: "WebRTC", url: "https://github.com/alexpiezo/WebRTC.git", .upToNextMajor(from: "1.1.29507")),
+        .package(name: "WebRTC", url: "https://github.com/stasel/WebRTC.git", .upToNextMajor(from: "96.0.0")),
         .package(name: "PMKFoundation", url: "https://github.com/PromiseKit/Foundation.git", .upToNextMajor(from: "3.4.0"))
         
 //        .package(url: "https://github.com/livekit/WebRTC-swift.git", .upToNextMajor(from: "1.91.0"))
